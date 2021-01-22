@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@600;700&family=Hind:wght@300;600;700&family=Overpass:wght@100;600;700&display=swap');
+
+body, *{
+	margin: 0;
+	padding;
+	font-family: 'Hind', sans-serif;
+
+}
+
+section{
+	padding: 60px 0;
+}
+
+.heading {
+    text-align: center;
+    
+
+}
+ h1{
+
+    font-size: 46px;
+    font-weight: 900;
+    color: #0F2656;
+}
+
+:root{
+	--blue:#008AFF;
+}
+
+
+
+
+
+/*--navbar starat---*/
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 15px;
+   
+}
+
+
+li.nav-item {
+    padding: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    color: black;
+    transition: .2s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color:var(--blue);
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*----Navbar end-----*/
+
+
+
+/*--Header Section start--*/
+
+.header-section{
+	text-align : center;
+}
+
+
+.header-section span{
+	
+	font-weight: 700;
+	font-size: 50px;
+	color: var(--blue);
+}
+.header-section p{
+	max-width: 770px;
+margin: auto;}
+
+
+/*-- ---Header Section end-----*/
+
+
+
+
+/*-- ---Project Section start-----*/
+.project-section span{
+	color: #ec5b5b;
+	font-weight: 700;
+	font-size: 50px;
+
+}
+
+.project-section-right{
+	padding-top: 10px;
+}
+/*-- ---Header Section end-----*/
+
+
+
+/*-- ---feature Section start-----*/
+.feature_content{
+	padding: 30px 30px;
+	transition:  .4s;
+	cursor: pointer;
+
+
+}
+
+.feature_content:hover{
+	box-shadow: 0px 0px 22px -7px rgba(0,138,255,0.96);
+
+}
+
+.box1{
+	background-color: #FDEBED;
+	
+}
+
+.box2{
+	background-color:  #EBF9F4;
+}
+
+.box3{
+	background-color:#FFF7E8;
+}
+
+
+
+.feature-img img{
+	
+	max-height: 175px;}
+
+
+.feature-text h4{
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 10px;
+
+
+}
+
+.footer_section{
+	background-color: var(--blue);
+	padding-top: 20px;
+	padding-bottom: 10px; 
+}
+
+.copyright{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+
+}
